@@ -1,0 +1,231 @@
+form {
+    display: flex;
+    flex-direction: column;
+    
+}
+form div{
+    margin:1rem;
+    display: flex;
+    justify-content: space-around;
+}
+form div div label{
+   font-size:13px;
+   margin:5px;
+}
+
+form div #name,#email,#password,#confrim-password{
+    width:80%;
+    height:3rem;
+    border-radius:10px;
+    padding-left: 30px;
+    border:1px solid gray;
+}
+#col-2{
+    margin-left:13rem;
+}
+
+
+
+
+/* ================= faqs ================================== */
+#accordionFlushExample div{
+    background-color: royalblue;
+}
+
+.contact{
+    width:40rem;
+    height:50rem;
+    margin:auto;
+    margin-bottom:5rem;
+    background-color:rgb(255, 255, 255);
+}
+
+.contacts #names,#emails,#message{
+    width:90%;
+    height:4rem;
+    border-radius:5px;
+    border:1px solid black;
+    font-size:15px;
+    padding-left:20px;
+   
+}
+   
+
+.contacts #message{
+    padding-top:20px;
+}
+
+
+#faq-footer ,.sign-footer {
+    position: absolute;
+    bottom: 0;
+    font-size:13px;
+
+}
+.contact--footer{
+    font-size:13px;
+}
+
+
+ /* sign page   */
+
+
+ #our-story {
+    margin-top:10rem;
+ }
+
+ #our-story--con {
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(255, 0, 0, 0);
+    justify-content:space-evenly;
+
+ }
+ #our-story--con div:first-child, #our-story--con div:last-child {
+    text-align: center;
+    padding:10px;
+   
+    margin:10px;
+ }
+
+ .second-con{
+    background-color: rgba(0, 255, 255, 0);
+    width:25%;
+ }
+
+ #our-story--con div:first-child form  input ,#our-story--con div:last-child form input{
+    border:1px solid black;
+    border-radius:5px;
+    font-size:14px;
+ }
+#our-story--con div:first-child form  input:focus {
+    outline: none;
+}
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    z-index:-1;
+}
+
+.contact .how-do-find {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 255, 255, 0);
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom:3rem;
+}
+.contact .how-do-find select {
+    margin-top:10px;
+    width:50%;
+}
+.contacts {
+    width:90%;
+    background-color: rgba(0, 255, 255, 0);
+    z-index:1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width:310px) and (max-width:700px){
+
+    .contact {
+        width:96%;
+    }
+
+  
+
+    form div div label{
+        font-size:11px;
+        margin:3px;
+     }
+     #col-2{
+        margin-top:5rem;
+        margin-left:0;
+        
+     }
+     #faq-con h1 {
+        font-size:20px;
+        text-align: center;
+     }
+     #faq-con h5{
+        font-size:15px;
+        text-align: center;
+        
+     }
+
+     #faq-footer {
+        position: absolute;
+        bottom: 0;
+        font-size:13px;
+     }
+     #faq-footer p, .sign-footer p{
+        width:80%;
+        margin-top:10px;
+     }
+
+     #our-story--con {
+        flex-direction: column;
+       
+       
+     }
+     .position {
+        position: relative;
+        bottom:2rem;
+     }
+
+     .position div {
+        display: flex;
+        flex-direction:column;
+        align-items: flex-end;
+     }
+     #our-story {
+        margin-top:10rem;
+        
+     }
+     #our-story--con div:first-child .btn {
+        position: relative;
+        bottom:2rem;
+
+    }
+    .second-con{
+        
+        width:95%;
+     }
+    .sign-footer{
+        position:static;
+        bottom:0; 
+        
+    }
+
+    .contact--footer{
+        position: static;
+        bottom:0rem;
+    }
+    .carousel-caption {
+        font-size:10px;
+        bottom:0;
+    }
+    .carousel-caption a {
+        font-size:10px;
+        height:30px;
+    }
+    .carouselinner {
+        height:20rem;
+    }
+}
+

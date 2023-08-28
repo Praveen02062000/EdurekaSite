@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edureka!</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Option 1: Include in HTML -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="./sign.css">
+
+
+
+
+
+
+    
+        
+
+    </style>
+</head>
+<body class="body">
+    <nav class="navbar navbar-expand-sm navbar-fixed-top" style="background-color:rgb(1, 112, 186); position:fixed; top:0rem; width:100%; z-index:1;">
+         <div class="con">
+            <a class="navbar-brand" href="../index.html" id="logo">Edureka!</a>
+            <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+                aria-expanded="false" aria-label="Toggle navigation" >
+                <i class="bi bi-list"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./our-story.html" aria-current="page" style="color: white;">Our Story<span class="visually-hidden">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./courses.html" aria-current="page" style="color: white;">Courses</a><span class="visually-hidden">(current)</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="" style="color:white;">Courses list</a>
+                        <ul class="dropdown-menu" id="Courses--list">
+                            <li class="dropdown-item" id="submenu" ><i class="bi bi-filetype-js"></i> Javascript</li>
+                            <li class="dropdown-item" id="submenu"><i class="bi bi-filetype-py"></i> Python</li>
+                            <li class="dropdown-item" id="submenu"><i class="bi bi-browser-chrome"></i> Web-Development</li>
+                           
+                        </ul>
+                    
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./sign.html" style="color: white;">Signup</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./faq.html" style="color: white;">FAQs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contact.html" style="color: white;">Contact</a>
+                    </li>
+                    
+                </ul>
+                
+            </div>
+        </div>
+    </nav>
+
+
+
+    <div id="our-story" >
+        <div id="our-story--con">
+            <div>
+                <h3>Not yet registered ?</h3>
+                <p>Signup</p>
+                <form>
+                    <div class="name">
+                       
+                        <input type="text" name="name" id="name" placeholder="Enter the name">
+                    </div>
+                    <div class="email">
+                       
+                        <input type="email" name="email" id="email" placeholder="Enter the Email">
+                    </div>
+                    <div class="password">
+                       
+                        <input type="password" name="password" id="password" placeholder="Enter the password ">
+                    </div>
+                    <div class="confrim-password">
+                       
+                        <input type="password" name="confrim-password" id="confrim-password" placeholder="Confrim password....">
+                    </div>
+                    <div class="position">
+                       
+                        <div>
+                            <label for="Web-Development">Web-Development
+                                <input type="checkbox" name="Web-Development">
+                            </label>
+                           
+                            <label for="Data-scientist">Data-scientist
+                                <input type="checkbox" name="Data-scientist">
+                            </label>
+                            
+                            <label for="Beginner">Beginner
+                                <input type="checkbox" name="Beginner">
+                            </label>
+                          
+                            <label for="Geek who do all the shits">Geek who do all the shits
+                                <input type="checkbox" name="Geek who do all the shits">
+                            </label>
+                          
+                        </div>
+                    </div>
+
+
+                    <div class="btn">
+                        <button class="btn btn-primary" type="submit">Signup</button>
+                        <button class="btn btn-secondary">Reset</button>
+                    </div>
+                    
+                   
+                </form>
+            </div>
+            <div class="second-con">
+                <h3>Already have an account</h3>
+                <p>Login</p>
+                <form action="sumbit">
+                    <div class="email">
+                        
+                        <input type="email" name="email" id="email" placeholder="Enter the Email">
+                    </div>
+                    <div class="password">
+                        
+                        <input type="password" name="password" id="password" placeholder="Enter the password ">
+                    </div>
+                    <div class="btn">
+                        <button class="btn btn-primary" type="submit">Let me in</button>
+                        <button class="btn btn-secondary">Reset</button>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+        
+    </div>
+
+
+
+
+
+    
+    
+    
+
+  
+   
+
+    <footer style="width:100%; background-color: rgb(1, 112, 186); height:4rem;" class="sign-footer">
+            <!-- Button trigger modal -->
+        <p id="term">
+            Copyright &copy; 2015 Brain4ce Education Solution. Ltd.<br> All Rights reserved : <a href="#"data-bs-toggle="modal" data-bs-target="#exampleModalCenter" >Term and Condition</a>
+        </p>
+          <!-- Modal -->
+        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Term and Condition</h5>
+                
+                <i class="bi bi-x-square" class="close" data-bs-dismiss="modal" aria-label="Close"></i>
+               
+                </div>
+                <div class="modal-body">
+                    Education policy consists of the principles and policy decisions that influence the field of education, as well as the collection of laws and rules that govern the operation of education systems. Education governance may be shared between the local, state, and federal government at varying levels.
+                
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+            </div>
+        </div>
+
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>
